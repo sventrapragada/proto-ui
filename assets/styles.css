@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#chatbot-messages {
+    height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#chatbot-input {
+    width: 70%;
+    padding: 5px;
+}
+
+#chatbot-send {
+    width: 25%;
+    padding: 5px;
+}
